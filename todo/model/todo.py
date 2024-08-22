@@ -14,3 +14,6 @@ class Todo:
     def add_tag(self, tag: str):
         if tag not in self.tags:
             self.tags.append()
+
+    def __str__(self):
+        return f"{self.code_id}-{self.title}"
