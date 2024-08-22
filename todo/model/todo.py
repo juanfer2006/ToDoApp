@@ -21,7 +21,7 @@ class Todo:
 
 class TodoBook:
 
-    def __int__(self, todos):
+    def __init__(self, todos):
         self.todos: dict[int, todos] = {}
 
-    def add_todo
+    def add_todo(self, title: str, description: str):
